@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(ar) 
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ar.collect{|x| x.include?:cheese_types}
+  ar.collect{|x| x.find:cheese_types}
 end
